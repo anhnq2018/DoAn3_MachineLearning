@@ -1,0 +1,148 @@
+digraph Tree84 {
+	split0 [label="split_feature_name:density
+threshold:0.99359"]
+	split1 [label="split_feature_name:free_sulfur_dioxide
+threshold:13.5"]
+	split12 [label="split_feature_name:free_sulfur_dioxide
+threshold:7.5"]
+	leaf0 [label="leaf_index:0
+leaf_value:-0.0038295290483669805"]
+	split12 -> leaf0 [label="<="]
+	split15 [label="split_feature_name:density
+threshold:0.991205"]
+	leaf13 [label="leaf_index:13
+leaf_value:0.0013458392272877972"]
+	split15 -> leaf13 [label="<="]
+	leaf16 [label="leaf_index:16
+leaf_value:-0.0015011769738048314"]
+	split15 -> leaf16 [label=">"]
+	split12 -> split15 [label=">"]
+	split1 -> split12 [label="<="]
+	split2 [label="split_feature_name:residual_sugar
+threshold:1.525"]
+	split4 [label="split_feature_name:density
+threshold:0.990605"]
+	leaf2 [label="leaf_index:2
+leaf_value:0.0021743530008380358"]
+	split4 -> leaf2 [label="<="]
+	split23 [label="split_feature_name:free_sulfur_dioxide
+threshold:39.25"]
+	leaf5 [label="leaf_index:5
+leaf_value:-0.0005273909295953528"]
+	split23 -> leaf5 [label="<="]
+	leaf24 [label="leaf_index:24
+leaf_value:0.0009067694903982772"]
+	split23 -> leaf24 [label=">"]
+	split4 -> split23 [label=">"]
+	split2 -> split4 [label="<="]
+	split10 [label="split_feature_name:density
+threshold:0.992355"]
+	split13 [label="split_feature_name:residual_sugar
+threshold:3.55"]
+	split21 [label="split_feature_name:chlorides
+threshold:0.0475"]
+	leaf3 [label="leaf_index:3
+leaf_value:0.002354039759224762"]
+	split21 -> leaf3 [label="<="]
+	leaf22 [label="leaf_index:22
+leaf_value:0.00022857985148827236"]
+	split21 -> leaf22 [label=">"]
+	split13 -> split21 [label="<="]
+	leaf14 [label="leaf_index:14
+leaf_value:0.0034589672704613706"]
+	split13 -> leaf14 [label=">"]
+	split10 -> split13 [label="<="]
+	split11 [label="split_feature_name:residual_sugar
+threshold:6.725"]
+	split22 [label="split_feature_name:fixed_acidity
+threshold:7.25"]
+	leaf11 [label="leaf_index:11
+leaf_value:0.0012460516868159175"]
+	split22 -> leaf11 [label="<="]
+	leaf23 [label="leaf_index:23
+leaf_value:-0.000710609116012583"]
+	split22 -> leaf23 [label=">"]
+	split11 -> split22 [label="<="]
+	leaf12 [label="leaf_index:12
+leaf_value:0.0029832586118991073"]
+	split11 -> leaf12 [label=">"]
+	split10 -> split11 [label=">"]
+	split2 -> split10 [label=">"]
+	split1 -> split2 [label=">"]
+	split0 -> split1 [label="<="]
+	split3 [label="split_feature_name:free_sulfur_dioxide
+threshold:18.5"]
+	split5 [label="split_feature_name:residual_sugar
+threshold:6.625"]
+	leaf1 [label="leaf_index:1
+leaf_value:-0.0041818595535176644"]
+	split5 -> leaf1 [label="<="]
+	split20 [label="split_feature_name:chlorides
+threshold:0.037500000000000006"]
+	leaf6 [label="leaf_index:6
+leaf_value:0.000631503420881927"]
+	split20 -> leaf6 [label="<="]
+	leaf21 [label="leaf_index:21
+leaf_value:-0.002278711274266243"]
+	split20 -> leaf21 [label=">"]
+	split5 -> split20 [label=">"]
+	split3 -> split5 [label="<="]
+	split6 [label="split_feature_name:chlorides
+threshold:0.0395"]
+	split14 [label="split_feature_name:free_sulfur_dioxide
+threshold:57.5"]
+	split18 [label="split_feature_name:density
+threshold:0.9957349999999999"]
+	split19 [label="split_feature_name:residual_sugar
+threshold:8.725"]
+	leaf4 [label="leaf_index:4
+leaf_value:0.00037729056305862724"]
+	split19 -> leaf4 [label="<="]
+	leaf20 [label="leaf_index:20
+leaf_value:0.00332153415600104"]
+	split19 -> leaf20 [label=">"]
+	split18 -> split19 [label="<="]
+	leaf19 [label="leaf_index:19
+leaf_value:-0.00034274930584019626"]
+	split18 -> leaf19 [label=">"]
+	split14 -> split18 [label="<="]
+	leaf15 [label="leaf_index:15
+leaf_value:-0.0018085189938545226"]
+	split14 -> leaf15 [label=">"]
+	split6 -> split14 [label="<="]
+	split7 [label="split_feature_name:residual_sugar
+threshold:12.45"]
+	split9 [label="split_feature_name:density
+threshold:0.99671"]
+	leaf7 [label="leaf_index:7
+leaf_value:-0.000946127397593643"]
+	split9 -> leaf7 [label="<="]
+	leaf10 [label="leaf_index:10
+leaf_value:-0.0026152520179748536"]
+	split9 -> leaf10 [label=">"]
+	split7 -> split9 [label="<="]
+	split8 [label="split_feature_name:residual_sugar
+threshold:15.05"]
+	split16 [label="split_feature_name:chlorides
+threshold:0.05450000000000001"]
+	leaf8 [label="leaf_index:8
+leaf_value:0.0002811257596282909"]
+	split16 -> leaf8 [label="<="]
+	leaf17 [label="leaf_index:17
+leaf_value:0.002445962396317295"]
+	split16 -> leaf17 [label=">"]
+	split8 -> split16 [label="<="]
+	split17 [label="split_feature_name:free_sulfur_dioxide
+threshold:51.25"]
+	leaf9 [label="leaf_index:9
+leaf_value:-0.0006966937179677188"]
+	split17 -> leaf9 [label="<="]
+	leaf18 [label="leaf_index:18
+leaf_value:-0.0030445728218182924"]
+	split17 -> leaf18 [label=">"]
+	split8 -> split17 [label=">"]
+	split7 -> split8 [label=">"]
+	split6 -> split7 [label=">"]
+	split3 -> split6 [label=">"]
+	split0 -> split3 [label=">"]
+}
